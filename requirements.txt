@@ -1,0 +1,13 @@
+Flask==2.3.3
+requests==2.31.0
+
+cd book-recommender
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Install dependencies (if not done)
+pip install flask requests
+
+# Run the app
+python app.py
