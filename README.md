@@ -2,7 +2,7 @@
 
 A simple Flask application that uses the Google Books API to recommend similar books based on a query.
 
-**Author**: Timothy Johnson
+**Author**: Timothy Johnson<br>
 **Date**: January 2026
 
 ## Overview
@@ -76,40 +76,26 @@ book-recommender-basic/<br>
 
 ### Installation
 
-1. **Clone and setup**:
-```bash
-git clone https://github.com/yourusername/book-recommender-basic.git
-cd book-recommender-basic
+1. Clone and setup:
 
-2.     Install dependencies:
-pip install flask requests
+    git clone https://github.com/MrTimmyJ/book-recommender-basic.git <br>
+    cd book-recommender-basic
 
-Or create and install from requirements.txt:
+2. Install dependencies:
 
-echo "flask>=2.0.0" > requirements.txt
-echo "requests>=2.25.0" >> requirements.txt
-pip install -r requirements.txt
+    Create and activate virtual environment
+    
+    python3 -m venv venv<br>
+    source venv/bin/activate  # Mac/Linux<br>
+    venv\Scripts\activate   # Windows
 
-Run the application:
+    Install Flask
+    
+    pip install flask requests
 
-python app.py
+3. Run application:
 
-Access the application:
-
-Open browser to: http://localhost:5000
-
-Test with: http://localhost:5000/test?book=Harry+Potter
-
-Configuration
-
-The application runs with default settings. For production deployment, consider:
-Environment Variables (Optional)
-
-Create a .env file:
-
-FLASK_ENV=development
-FLASK_DEBUG=True
-PORT=5000
+     python app.py
 
 🪪 License
 
